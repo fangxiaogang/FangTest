@@ -1,10 +1,7 @@
 package com.xiaogang.test.fangtest;
 
-import android.annotation.SuppressLint;
-import android.os.Handler;
-import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import javax.inject.Inject;
@@ -23,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
         DaggerMainActivityComponent.create().inject(this);
         Toast.makeText(this,"ss"+ product.hashCode(),Toast.LENGTH_LONG).show();
 
-        
+        //test
     }
 }
